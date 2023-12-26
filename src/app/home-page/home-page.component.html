@@ -1,0 +1,69 @@
+
+
+<!-- <div class="polaroid">
+    <div class="d-flex justify-content-center">
+    <img src=".\assets\images\personal.png" alt="5 Terre" style="width:20%">   
+    </div> 
+
+    <div class="container">
+    <p>Cinque Terre</p>
+    </div>
+  </div>
+  
+  <div class="polaroid">
+    <div class="d-flex justify-content-center">
+    <img src=".\assets\images\public.png" alt="Norther Lights" style="width:20%">
+    </div>
+    <div class="container">
+    <p>Northern Lights</p>
+    </div>
+  </div> -->
+
+
+
+<!-- <h2>User Details</h2>
+
+<div *ngIf="userDetails">
+  <p><strong>Username:</strong> {{ userDetails.username }}</p>
+</div>
+<div *ngIf="!userDetails">
+  <p>User not found</p>
+</div>
+
+<button (click)="navigateToAdditionalUserData()">Go to Additional User Data</button> -->
+
+
+
+
+<div id="spacing" class="d-flex justify-content-between">
+
+  <div class="contain" *ngIf="userDetails">
+    <p-overlayPanel #op>
+          waiting
+    </p-overlayPanel>
+
+    <p-button (click)="op.toggle($event)" (click)="navigateToAdditionalUserData()" icon="pi pi-image" label=" ">
+      <b id="subtitle">Profile</b>
+      <div class='shrink'>
+        <img id="image-s" src=".\assets\images\personal.png" style="">
+      </div>
+    </p-button>
+
+  </div>
+
+<br>
+
+  <div class="contain">
+    <p-overlayPanel #op>
+    </p-overlayPanel>
+
+    <p-button (click)="op.toggle($event)" icon="pi pi-image" label=" ">
+      <div class='shrink'>
+        <img id="sizing-image" src=".\assets\images\public.png" style="">
+      </div>
+      <b id="subtitle">Feeds</b>
+    </p-button>
+  </div>
+
+</div>
+

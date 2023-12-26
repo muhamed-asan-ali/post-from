@@ -1,0 +1,49 @@
+/* div.polaroid {
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+  }
+  
+  div.container {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    padding: 10px 20px;
+  }
+
+  div.image{
+    align-items: center;
+    margin-top: 7%;
+  } */
+
+
+  .shrink img {
+    transition: 1s ease;
+    }
+    
+  .shrink img:hover{
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+    transition: 1s ease;
+    }
+
+  
+#spacing{
+  margin-top: 120px;
+  margin-left: 11px;
+  margin-right: 11px;
+}
+
+#sizing-image{
+  height: 370px;
+}
+
+#subtitle{
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+#image-s{
+  height: 370px;
+}
